@@ -1,0 +1,118 @@
+body{
+    background: rgb(228, 226, 226);
+}
+
+
+.star{
+    position: absolute;
+    color: yellow;
+    font-size: 100px;
+    margin-left:618px ;
+    margin-top: -80px;
+}
+.innerContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.tree:nth-child(1){
+    width: 0;
+    height: 0;
+    border-left:70px solid transparent;
+    border-right:70px solid transparent;
+    border-bottom:70px solid #05d427 ;
+    margin-left: -15px;
+    margin-top: 35px;
+}
+.tree:nth-child(2){
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -15px;
+    border-left:100px solid transparent ;
+    border-right:100px solid transparent ;
+    border-bottom:100px solid #05d427 ;
+}
+.tree:nth-child(3){
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -15px;
+    border-left:120px solid transparent ;
+    border-right:120px solid transparent ;
+    border-bottom:120px solid #05d427 ;
+}
+.tree:nth-child(4){
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -15px;
+    border-left:140px solid transparent ;
+    border-right:140px solid transparent ;
+    border-bottom:140px solid #05d427 ;
+}
+.tree:nth-child(5){
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -15px;
+    border-left:160px solid transparent ;
+    border-right:160px solid transparent ;
+    border-bottom:160px solid #05d427 ;
+}
+.tree:nth-child(6){
+    position:absolute;
+    margin-top: 660px;
+    margin-left: -15px;
+    width: 50px;
+    height: 100px;
+    background-color: #745003;
+    
+}
+
+#two{
+    margin:20px -40px ;
+    position: absolute;
+    font-size: 20px;
+}
+#three{
+    margin:40px 20px ;
+    position: absolute;
+    font-size: 20px;
+}
+#four{
+    margin:30px -50px ;
+    position: absolute;
+    font-size: 20px;
+}
+#five{
+    margin:80px 50px ;
+    position: absolute;
+    font-size: 20px;
+}
+.light{
+    color: rgb(255, 255, 255);
+}
+.clicked{
+    color:rgb(0, 89, 255) ;
+    text-shadow:2px 2px 5px aqua;
+}
+#lightbtn{
+    cursor: pointer;
+}
+
+.fa-star{
+    position: absolute;
+}
+#star2{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+#star3{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#star4{
+    margin-top: 80px;
+    margin-left: -30px;
+}
+.starClicked{
+    color:yellow;
+}
